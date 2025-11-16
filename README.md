@@ -1,2 +1,10 @@
 # Battlebot
-This document contains the files describing the design and fabrication of a combat robot. 
+
+The aim of this project is to design and fabricate a combat robot for a university level competition to participate in the 15 kg weight class in a 16 feet side square arena. 
+
+## Weapon Mechanism Selection
+The weapon mechanism selected can be the central idea around which a combat robot is designed. Although a [simple study](https://scholars.fhsu.edu/cgi/viewcontent.cgi?article=1346&context=sacad) says that weapon class does not affect a battlebot’s performance, it affects the geometry, weight distribution, power requirements, and almost about every other aspect of it. Wedges, Drill, Crushers, Lifters and various kinds of spinners are some of the most common mechanisms in competitions. An extensive list can be found [here](https://battlebots.fandom.com/wiki/Category:Weapons). 
+
+Thus, after careful consideration it was decided that the Drum Spinner be the weapon of choice for the robot. It is essentially a large cylinder spinning at high RPM with extrusions to transfer high amount of kinetic energy to the opponent during collisions and do damage. The largest disadvantage which must be kept in mind that a spinning drum at one end makes it difficult to control the robot.
+
+![Minotaur by Team RioBotz, A combat robot featured in the Battlebots TV Show, with a Drum Spinner as its primary weapon.](/assets/Minotaur-Bot-S2019-1140x760.jpg) 
