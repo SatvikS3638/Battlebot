@@ -2,6 +2,7 @@
 
 This project documents the design of a 15 kg combat robot (battlebot) for Robowars‑style competitions, focusing on mechatronic system design, drivetrain sizing, weapon actuation, and electrical subsystem selection. The goal was to design a robust, remotely operated, two‑wheeled drum‑spinner robot that can traverse the arena quickly, survive impacts, and reliably deliver weapon strikes within the competition budget and rules.
 
+This project is hosted at : [https://github.com/SatvikS3638/Battlebot]
 # System Requirements
 ## Competition and Performance Targets
 * Maximum robot weight: 15 kg (Robowars class limit).
