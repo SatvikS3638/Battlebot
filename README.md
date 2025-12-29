@@ -23,7 +23,7 @@ This project documents the design of a 15 kg combat robot (battlebot) for Robowa
 ## Velocity and RPM Calculations
 To ensure adequate mobility, the required linear speed V was computed assuming the robot must cross the diagonal of the arena in about 6 seconds. For a 16 ft square arena, this yields a required velocity of approximately 1.15 m/s. 
 For a wheel radius R ≈ 0.05 m (10 cm diameter), the required wheel rotational speed N is: 
-$N = \frac{V}{2\pi R} ≈ 7.32 rev/s ≈ 220 rpm$ 
+$N=\frac{V}{2\pi R}≈7.32rev/s≈220rpm$ 
 
 This RPM served as a target for the wheel motor selection so that the bot can meet the agility requirement without over‑gearing the drivetrain.
 
@@ -33,7 +33,7 @@ Typical combat robot guidelines suggest an acceleration magnitude on the order o
 ## Traction and Torque Estimates
 Assuming a maximum robot weight of 15 kg and a worst‑case engagement where the effective load on the wheels can temporarily double (up to 30 kg), the load per wheel was estimated at about 7.5 kg for a four‑wheel configuration. Using this load and the 50 mm wheel radius, the static torque requirement per wheel was computed as approximately 0.375 Nm (37.5 Ncm).
 To provide a robust margin, an additional rule from combat robotics practice was applied: each drive motor’s stall torque should be sufficient to lift the full robot weight at the wheel radius. Using a 15 kg robot, the required stall torque per motor becomes:
-$T_{stall} = mgr = 15 x 9.8 x 0.05 ≈ 7.35 Nm$
+$T_{stall}=mgr=15x9.8x0.05≈7.35Nm$
 This requirement drove the choice of geared drive motors with sufficiently high stall torque.
 
 ## RMF (Robot Motor Factor) Check
@@ -42,10 +42,10 @@ The drivetrain design was validated using an online Robot Motor Factor (RMF) cal
 # Weapon (Drum Spinner) Design
 ## Worst‑Case Load Modelling
 The drum spinner motor was sized for an extreme case where the entire opponent robot’s weight rests on the drum, even though this scenario is unlikely in practice. Taking an opponent mass of up to 15 kg and assuming a friction coefficient up to 1, the maximum normal force on the drum can be approximated as:​
-$F_{max} ≈ 2 x M_{2}g ≈ 294 N$
+$F_{max}≈2xM_{2}g≈294N$
 Here, a safety factor of 2 was included to account for dynamic impacts and uncertainties.
 With the drum radius constrained to 50 mm, the corresponding resistive torque is:
-$T_{drum} = F_{max} x r ≈ 294 x 0.05 ≈ 14.7 Nm$
+$T_{drum}=F_{max}xr≈294x0.05≈14.7Nm$
 This torque is intentionally conservative; in practice, such a load is rarely sustained, so the design decision was to select a “very high torque” motor and prioritize robustness rather than exactly meeting this extreme torque.
 
 ## Motor Selection Strategy
