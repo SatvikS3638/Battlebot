@@ -4,7 +4,7 @@ This project documents the design of a 15 kg combat robot (battlebot) for Robowa
 
 This project is hosted at : [https://github.com/SatvikS3638/Battlebot]
 
-![Combat Robot Chassis](assets/chassis) 
+![Combat Robot Chassis](assets/chassis.png) 
 
 # System Requirements
 ## Competition and Performance Targets
@@ -45,7 +45,7 @@ The drivetrain design was validated using an online Robot Motor Factor (RMF) cal
 
 # Weapon (Drum Spinner) Design
 
-![Drum Spinner Design](assets/spinner) 
+![Drum Spinner Design](assets/spinner.png) 
 
 ## Worst‑Case Load Modelling
 The drum spinner motor was sized for an extreme case where the entire opponent robot’s weight rests on the drum, even though this scenario is unlikely in practice. Taking an opponent mass of up to 15 kg and assuming a friction coefficient up to 1, the maximum normal force on the drum can be approximated as:​
