@@ -3,6 +3,9 @@
 This project documents the design of a 15 kg combat robot (battlebot) for Robowars‑style competitions, focusing on mechatronic system design, drivetrain sizing, weapon actuation, and electrical subsystem selection. The goal was to design a robust, remotely operated, two‑wheeled drum‑spinner robot that can traverse the arena quickly, survive impacts, and reliably deliver weapon strikes within the competition budget and rules.
 
 This project is hosted at : [https://github.com/SatvikS3638/Battlebot]
+
+![Combat Robot Chassis](assets\images\chassis)
+
 # System Requirements
 ## Competition and Performance Targets
 * Maximum robot weight: 15 kg (Robowars class limit).
@@ -41,6 +44,9 @@ This requirement drove the choice of geared drive motors with sufficiently high 
 The drivetrain design was validated using an online Robot Motor Factor (RMF) calculator, which consolidates robot weight, wheel radius, and speed into a single metric. With the chosen parameters, the RMF requirement was around 6.9 kg·m·rev/s, and motors meeting or exceeding this RMF were considered acceptable.
 
 # Weapon (Drum Spinner) Design
+
+![Drum Spinner Design](assets/images/spinner) 
+
 ## Worst‑Case Load Modelling
 The drum spinner motor was sized for an extreme case where the entire opponent robot’s weight rests on the drum, even though this scenario is unlikely in practice. Taking an opponent mass of up to 15 kg and assuming a friction coefficient up to 1, the maximum normal force on the drum can be approximated as:​
 $F_{max}≈2xM_{2}g≈294N$
