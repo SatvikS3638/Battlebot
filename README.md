@@ -4,7 +4,7 @@ This project documents the design of a 15 kg combat robot (battlebot) for Robowa
 
 This project is hosted at : [https://github.com/SatvikS3638/Battlebot]
 
-![Combat Robot Chassis](assets\images\chassis)
+![Combat Robot Chassis](assets\images\chassis) 
 
 # System Requirements
 ## Competition and Performance Targets
