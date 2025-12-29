@@ -45,7 +45,7 @@ The drum spinner motor was sized for an extreme case where the entire opponent r
 $F_{max} ≈ 2 x M_{2}g ≈ 294 N$
 Here, a safety factor of 2 was included to account for dynamic impacts and uncertainties.
 With the drum radius constrained to 50 mm, the corresponding resistive torque is:
-$T_{drum} = F_{max} x r ≈ 294 x 0.05 ≈ 14.7 Nm
+$T_{drum} = F_{max} x r ≈ 294 x 0.05 ≈ 14.7 Nm$
 This torque is intentionally conservative; in practice, such a load is rarely sustained, so the design decision was to select a “very high torque” motor and prioritize robustness rather than exactly meeting this extreme torque.
 
 ## Motor Selection Strategy
